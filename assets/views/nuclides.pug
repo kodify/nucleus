@@ -17,29 +17,29 @@ block nav
   -var selected = 'Nuclides';
 
 block title
-  | Nuclides
+  | Kodistrap
 
 block content
   .SG-row
     .SG-gr-12
-      .SG-h1 Nuclides
+      .SG-h1 Kodistrap
 
   .SG-row
     .SG-gr-6
       .SG-h3 Table of content
     .SG-gr-6
-      .SG-h3 What are Nuclides?
+      .SG-h3 This is Kodistrap
 
   .SG-row
     .SG-gr-6.SG-toc
       +toc(styles.Nuclides)
     .SG-gr-6
       p.SG-p.
-        Nuclides are parts of the stylesheet source that are not directly useable on their own. This could be mixins, variables like colors and sizes, or settings.
-      p.SG-p.
-        To mark a variable or mixin as a nuclide, annotate it with the <span class="SG-strong">@nuclide</span> tag, followed by the name of the nuclide.
-      p.SG-p.
-        Special forms are <span class="SG-strong">@color</span> and <span class="SG-strong">@mixin</span>.
+        Kodistrap its a collection of style components based on some bootstrap components.
+      a.SG-p(href='http://getbootstrap.com/css/#grid-intro').
+        Grid System DOC
+      a.SG-p(href='http://getbootstrap.com/css/#forms').
+        Forms system DOC
 
   if meta.demo
     include ./common/demo.pug
