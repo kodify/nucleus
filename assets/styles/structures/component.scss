@@ -8,6 +8,11 @@
 // of the MIT license. See the LICENSE file for details.
 
 .SG-component {
+  &.black{
+    .SG-component__preview{
+      color: #000;
+    }
+  }
   margin-bottom: 75px;
 
   .SG-component__title {

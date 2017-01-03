@@ -101,6 +101,7 @@ for(var t in templateFiles) {
       css: config.css,
       title: config.title,
       namespace: config.namespace,
+      componentBackground: config.componentBackground,
       counterCSS: config.counterCSS,
       demo: !!config.demo
     }

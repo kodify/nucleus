@@ -99,6 +99,7 @@ config.target = prompt(prefix + chalk.bold.cyan('Where should the styleguide be?
 
 Verbose.info('init_css');
 config.css = prompt(prefix + chalk.bold.cyan('What\'s the URL of the CSS? '), '');
+config.componentBackground = prompt(prefix + chalk.bold.cyan('What\'s the colour of your component background? '), '#000');
 
 Verbose.info('init_namespace');
 var usingNamespace = prompt(prefix + chalk.bold.cyan('Do you use a CSS namespace (y/n)? '), false);
